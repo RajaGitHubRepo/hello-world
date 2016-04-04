@@ -1,0 +1,20 @@
+Chapter 20 - The Promise API
+-----------------------------
+Introduction
+The Core API
+Waiting for Multiple Ajax Calls
+Changing Result Data
+Promise Chaining
+Caching Ajax Calls in Memory
+Cache Ajax Calls on Disk
+Caveat
+Summary
+The Promise API
+Introduction
+The Core API
+Waiting for Multiple Ajax Calls
+Changing Result Data
+Promise Chaining
+Caching Ajax Calls in Memory
+Cache Ajax Calls on Disk
+Caveat

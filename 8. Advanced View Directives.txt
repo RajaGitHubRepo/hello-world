@@ -1,0 +1,12 @@
+Chapter 7 Advanced View Directives
+-------------------------
+The ng-repeat Directive
+Example Use of ng-repeat
+Dynamically Adding Items
+Special Properties
+Example: Using the $index Property
+Scope and Iteration
+Event Handling in Iterated Elements
+The ng-switch Directive
+Example Use of ng-switch
+Inserting External Template using ng-include

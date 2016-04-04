@@ -1,0 +1,25 @@
+Chapter 12 Communicating with Web Servers
+=------------------------------
+The $http AngularJS Service
+The Promise Interface
+The $http Service
+$http Function Invocation
+Callback Parameters
+Request Configuration Properties
+Shortcut Methods
+Complete List of Shortcut Methods
+Using $http.get()
+Working with JSON Response
+Using $http.post()
+Combining $http Post Request Data with Url Parameters
+The then() Method of the Promise Object
+The Response Object
+Making Parallel Web Service Calls
+Combining Multiple Promises into One
+Wait for the Combined Promise
+Setting Up HTTP Request Headers
+Caching Responses
+Disabling Caching in IE9
+Setting the Request Timeout
+Unit Testing with ngMock
+Writing Unit Tests

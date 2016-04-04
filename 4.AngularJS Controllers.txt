@@ -1,0 +1,15 @@
+Chapter 4 AngularJS Controllers
+----------------------
+Controller Main Responsibilities
+About Constructor and Factory Functions
+Defining a Controller
+Using the Controller
+Controller Constructor Function
+More About Scope
+Example Scope Hierarchy
+Using Scope Hierarchy
+Modifying Objects in Parent Scope
+Modified Parent Scope in DOM
+Handling Events
+Another Example for Event Handling
+Storing Model in Instance Property

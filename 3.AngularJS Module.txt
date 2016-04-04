@@ -1,0 +1,11 @@
+Chapter 3 AngularJS Module
+-----------------
+What Is a Module?
+Benefits of Having Modules
+Life Cycle of a Module
+The Configuration Phase
+The Run Phase
+Module Wide Data Using Value
+Module Wide Data Using Constant
+Module Dependency
+Using Multiple Modules in a Page

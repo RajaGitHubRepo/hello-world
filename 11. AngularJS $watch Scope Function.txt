@@ -1,0 +1,11 @@
+Chapter 11 AngularJS $watch Scope Function
+--------------------------------
+The $watch Function
+The $watch Function Signature
+The $watch Function Details
+Canceling the Watch Action
+Example of Using $watch
+Things to be Aware Of
+More Things to Be Aware Of
+Performance Considerations
+Speeding Things Up

@@ -1,0 +1,11 @@
+Chapter 6 Basic View Directives
+----------------------
+Introduction to AngularJS Directives
+Controlling Element Visibility
+Adding and Removing an Element
+Dynamically Changing Style Class
+The ng-class Directive
+Example Use of ng-class
+Setting Image Source
+Setting Hyperlink Dynamically
+Preventing Initial Flash

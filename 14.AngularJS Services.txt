@@ -1,0 +1,9 @@
+Chapter 14 AngularJS Services
+--------------------
+Introduction to Services
+Defining a Service
+The factory() Method Approach
+The service() Method Approach
+The provider() Method Approach
+Using a Service
+Configuring a Service using its Provider

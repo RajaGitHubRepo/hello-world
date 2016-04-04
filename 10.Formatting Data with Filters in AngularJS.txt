@@ -1,0 +1,15 @@
+Chapter 10 Formatting Data with Filters in AngularJS
+------------------------------------------
+What Are AngularJS Filters?
+The Filter Syntax
+Angular Filters
+More Angular Filters
+Using Filters in JavaScript
+Using Filters
+A More Complex Example
+The date Filter
+The date's format Parameter
+Examples of Using the date Filter
+The limitTo Filter
+Using limitTo Filter
+Filter Performance Considerations
