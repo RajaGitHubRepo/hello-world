@@ -1,7 +1,7 @@
 Ajax is the art of exchanging data with the server.And update parts of the page with out reloading the whole page.
 
 some of the Jquery Ajax methods are listed here: 
-1. $.Ajax() : performs async requests.
+1. $.Ajax() : performs async requests. ( follow example here http://www.sitepoint.com/use-jquerys-ajax-function/)
 2. $.AjaxSetup() : Sets the default values for future Ajax requests
 3. $.Get() : Loads the data from server using Ajax HTTP Get
 4. $.GetJson() : Loads Json Encoded data from Server using HTTP Get Reqeust
