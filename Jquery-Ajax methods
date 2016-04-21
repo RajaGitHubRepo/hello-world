@@ -8,6 +8,13 @@ some of the Jquery Ajax methods are listed here:
 5. $.Load() : Loads data from server and puts the returned data in to selected element
 6. $.Post(): Loads the data from server using Ajax HTTP post 
 
+JqueryUI : 
+some widjets : 
+According : Collapsible contol
+Autocomplete : text box remembers and auto completes. 
+spinner : Text box with up and down arrow
+
+
 Some examples: 
 
 1. How to declare Jquery Ajax in html  
