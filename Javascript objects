@@ -1,0 +1,21 @@
+1. what is strict keyword ? Ans:) To nofiy erros if any issues in javascript code. 
+2. what is the importance of new key word ? 
+3.what is this keyword in javascript ? expalin both with a simple example ? 
+
+4.why javascript is a dynamic nature (other static type languages): what is dynamic nature ? 
+Ans) you can completely change the shapes of the objects once you have creatd. Belwo explananiton will give more understanding.
+
+5. How to create javascript objects ? 
+
+Ans) Various ways you can create a javascript objects. 
+
+// Lets try to create Javascript object called dog...
+var dog = {Name = "Jack", Colour = 'Brown"}
+dog.age = 4 // dynamically added another property 
+// try to add dynamic function to the dog object ...
+Add function to an object: it is as simple as adding a property
+
+dog.bark = function() {alert("bowh")}  // dinamically added another property
+dog.bark() // Execute bark() function..
+
+6 . how youcreate multiple instances of dogs ? this partly explains the concepts of (New, this, prototypes) etc... 
