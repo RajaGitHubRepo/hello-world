@@ -1,0 +1,32 @@
+Ajax is the art of exchanging data with the server.And update parts of the page with out reloading the whole page.
+
+some of the Jquery Ajax methods are listed here: 
+1. $.Ajax() : performs async requests.
+2. $.AjaxSetup() : Sets the default values for future Ajax requests
+3. $.Get() : Loads the data from server using Ajax HTTP Get
+4. $.GetJson() : Loads Json Encoded data from Server using HTTP Get Reqeust
+5. $.Load() : Loads data from server and puts the returned data in to selected element
+6. $.Post(): Loads the data from server using Ajax HTTP post 
+
+Some examples: 
+
+1. How to declare Jquery Ajax in html  
+Ans : one has to include bleow tag in your html page.
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> from the website and download http://jquery.com/download/
+
+(or) you can download from the website and download (http://jquery.com/download/) and include like below
+<script src="jquery.js"></script>
+
+2. significance of $(document).ready(function() function 
+
+Ans : While JavaScript provides the load event for executing code when a page is rendered, this event does not get triggered 
+until all assets such as images have been completely received. In most cases, the script can be run as soon as the DOM 
+hierarchy has been fully constructed. The handler passed to .ready() is guaranteed to be executed after the DOM is ready, 
+so this is usually the best place to attach all other event handlers and run other jQuery code. When using scripts that 
+rely on the value of CSS style properties, it's important to reference external stylesheets or embed style elements before 
+referencing the scripts.
+
+In cases where code relies on loaded assets (for example, if the dimensions of an image are required),
+the code should be placed in a handler for the load event instead.The .ready() method is generally incompatible 
+with the <body onload=""> attribute. If load must be used, either do not use .ready() or use jQuery's .load() method to 
+attach load event handlers to the window or to more specific items, like images.
