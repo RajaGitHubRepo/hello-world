@@ -1,3 +1,12 @@
+JavaScript is a programming language used to add interactivity to a web page. 
+jQuery simplifies JavaScript syntax and makes it easier to build interactive web pages that work across multiple browsers.
+jQuery enables us to do three main things on a web page:
+----Events. Respond to user interactions.
+----DOM Manipulation. Modify HTML elements on the page.
+----Effects. Add animations.
+We'll see how to do each of these things in the next sections.
+
+
 ////////////////////////
 aap.js
 //////////////////////////
