@@ -1,0 +1,18 @@
+Effects -  Add animations
+1. you can animate specific part of web page like complete body element
+
+example : 
+// below example animates the body section to left of 176 pixels and that will animate in 150 milli secions.
+
+
+$('body').animate({
+        left : '176px'
+        },150);        
+    });
+
+2. you can animate css class  - animates the menu items to move to right from the original position and placing the left 
+placement of menu item to 234 pixels and it takes around 300 millisecionds.
+ $('.menu').animate({
+        left : '234px'
+        }, 300);  
+        
