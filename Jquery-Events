@@ -119,3 +119,10 @@ body {
   word-wrap: break-word;
   min-height: 42px;
 }
+
+// There are other couple of events for mouse click - 
+mousedown() -> triggers the event when mouse left button is clicks
+mouseleave() -> triggers the event when leaving the mouse cursor
+mouseenter() -> triggers the event when entering the mouse cursor
+mouseup() -> triggers the event when mouse left button is clicks and opens ups
+mouseover()
