@@ -126,3 +126,11 @@ mouseleave() -> triggers the event when leaving the mouse cursor
 mouseenter() -> triggers the event when entering the mouse cursor
 mouseup() -> triggers the event when mouse left button is clicks and opens ups
 mouseover()
+blur () --> // The blur event occurs when the <input> field loses focus:
+----$("input").blur(function(){
+    alert("This input field has created a blur event because it lost its focus");
+focus() ---     Attach a function to the focus event. The focus event occurs when the <input> field gets focus:
+    $("input").focus(function(){
+    $("span").css("display", "inline").fadeOut(2000);
+});
+});
