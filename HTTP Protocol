@@ -1,0 +1,9 @@
+http://HOst:portNumber/?key=value#Fragment 
+
+first part is : U.R.L Scheme 
+Second part : Host (DNS Server will find the I.P address) 
+Third Part : Port number (defalut post Host alwasy listen is 80). For debug and additional purpsoes it uses 8080, in that case 
+Third part should be displayed. Usually most websites dont include this part as it is difficult for user to remember URL. 
+
+Fouth Part : Query String : It contains Key Value pair 
+Fifth Part : Fragment : This only applicable at client side, With in the page it opens perticular section for the client.
