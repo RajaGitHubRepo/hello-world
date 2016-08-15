@@ -1,3 +1,9 @@
+----------------
+HTTP Resources:
+----------------
+Any things jpg file or pdf file any thing html contect is condisderd as HTTP Resource. Typically a HTML page contains many 
+resources like dispaly of images, Videos, audio files, css styelshhets etc... all are considered as HTTP resouces.
+
 http://HOst:portNumber/?key=value#Fragment 
 
 first part is : U.R.L Scheme 
@@ -7,3 +13,40 @@ Third part should be displayed. Usually most websites dont include this part as 
 
 Fouth Part : Query String : It contains Key Value pair 
 Fifth Part : Fragment : This only applicable at client side, With in the page it opens perticular section for the client.
+
+----------------
+HTTP Messages: 
+---------------- 
+Two types of Messages : 1. HTTPRequest (client sends the requset to Server - While sending it it should send 
+the message in such a way that Server should Understand the message sent by a client)  2. HTTP Response (Server sents the return mess
+age to the client).
+
+According to HTTP 1.1 specification, both request and response are two different types of messages, and they get exchanged in single
+Http transaction. 
+
+What is single http transaction ? 
+
+Telnet is a software where you can connect to server and request a resource.  While using telent sample request operation 
+GET /Xyz.Jpg HTTP /1.1 ---Get is a primary HTTP method 
+HOST www.xyz.com  --- Host is server which we are trying to connect to.. 
+
+Available HTTP methods are: GET, PUT, POST, DELETE, HEAD etc... 
+What is the primary difference between GET And POST method ? Get is a safe method , becasue it will not alter or update any thing in 
+server/Host, they just request a resource from Host, so It is safe method. 
+
+ But Post will alter or updates in Servers like submit an order, sumbit credit cord processing etc... Since POST is a Unsafe method
+ web servers perform the requests differently. 
+
+-----------------
+HTTP Connections:
+-----------------
+
+
+------------------
+HTTP Architecture:
+------------------
+
+-----------------
+HTTP Security: 
+-----------------
+
