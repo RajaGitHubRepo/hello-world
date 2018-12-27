@@ -1,2 +1,2 @@
-# hello-world
-My first repository on Github 
+# Javascript
+All things javascript
