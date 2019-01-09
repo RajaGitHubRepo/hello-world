@@ -20,4 +20,5 @@ dog.bark() // Execute bark() function..
 
 6 . how youcreate multiple instances of dogs ? this partly explains the concepts of (New, this, prototypes) etc... 
 
-Add topics for Closures and Promises:
+Add topics for Closures (talks about the scope of a variable in javascript) and Promises (way of handling the events with resovle 
+and reject, promises works in two steps: ):
