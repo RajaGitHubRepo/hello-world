@@ -1,0 +1,4 @@
+Higher order functions :-
+-----------------------
+unction can take fuIn Javascript a fnction as paramter orgument and retruns Function as a return value in 
+stead of (int, bool, string) that is the reason it is called higher order fucntion.
