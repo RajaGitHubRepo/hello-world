@@ -4,3 +4,11 @@ Part1 : core javascript functionality (like variables, syntax, language concepts
 Part2 : Browser: Document, Events, Interfaces.
 
 I found it is a good resource to learn Javascript.
+
+Relationship between: JS versions, ECMA standards and browsers. 
+Which javascript version is supporing which standard.
+and what browsers are implemented ECMA standards. 
+Like IE11 only supports ES5 ..
+
+What are the enhancements from Es5 to Es10..
+Good Article on javascript versioning. (https://www.w3schools.com/js/js_versions.asp)
