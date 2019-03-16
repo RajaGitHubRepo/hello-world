@@ -12,3 +12,17 @@ Like IE11 only supports ES5 ..
 
 What are the enhancements from Es5 to Es10..
 Good Article on javascript versioning. (https://www.w3schools.com/js/js_versions.asp)
+
+while learning react you need to have basic understanding of Javascript:
+The basics atleast you should know to get along are:
+1. Js variables and types.
+2. Objects and Arrays.
+3. Functions and classes.
+4. Loops and conditionals.
+
+Good resources for labs : 
+--------------------------
+1. https://jscomplete.com/js-labs
+2. https://jscomplete.com/react-cfp ( you are likely to run in to problems when learning react, not because of 
+react, but javascript syntax errors above link is a good resource ). You must go through it and have a reference 
+
