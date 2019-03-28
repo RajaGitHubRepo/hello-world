@@ -1,0 +1,37 @@
+ES6-ES2015 - every year new release is being released with year name at the end.
+This is not commplete coverage of Modern javascript
+
+{{{}}} => what is this ? this is nested block scope...
+block is a created with pair of curly braces...
+
+this also used for If statements and for statements  and functions
+block scopes are bit different for function scopes:
+---------------------------------------------------
+lets understand it by comparing using block scope with For loop and function 
+
+function sum (a, b)
+{
+var result;
+result = a + b ; 
+
+}
+
+if you try to print result ==> you can not print here....
+
+You can not access the var (result ) out side of the function sum...... 
+---------------------------------------------------------------------------
+for (var i=2 ; i<=10; i++)
+{
+}
+i  => if you print it will give you the value 11 ==> that means you can access it. this is bit not intended, so in modern javascript
+the normal way to avoid this is using let keyword.....
+
+for (let i=2 ; i<=10; i++)
+{
+}
+i = > you will get the error i is not defined. -- This is good and the needed behaviour.
+
+
+
+
+
