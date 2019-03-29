@@ -1,0 +1,17 @@
+{
+// block scope
+{ 
+  // Nested block scope 
+  // With in each scope the value of variable is protected as long as you use
+  // Let or const keyword...
+
+}
+}
+
+// we use const to reference assigned to the constant is meant to be constant....
+references assigned with constat can not be chaged....
+
+The scalar values in javascript are immutable...we can not mutate the value of int or string 
+in javascript to mutate..when we use the constant we can not change the references either..
+
+
