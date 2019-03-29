@@ -1,0 +1,20 @@
+There are many ways to define a function in javascript
+there is a modern way to define a function with out using the keyword function..
+
+const x = funciton ()
+{ 
+  // "this" is the caller of x
+};
+
+const y = () => {
+// this is not the caller of Y
+
+// It's the same "this" found in Y's scope
+};
+
+This arrow syntax is most preferrable, becasue it is shorter..
+but also it behaves more predictably with closures....
+
+an arrow function does not care who calls it
+but a regular funciton will care verymuch who calls it..
+
