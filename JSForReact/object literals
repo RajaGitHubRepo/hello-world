@@ -1,1 +1,28 @@
+Objects are very popular and widly used in communicating with other parts of the code.
+these modern features will allow easily communicate. using these features will allow to 
+read and write code bit shorter and easier to read. 
 
+instead of using new object  you can create object with object literal syntax. 
+literal intiation we can use it for arrays, strings, objects , numbers 
+
+Modern javascript supports Dynamic property literal ,
+                           -------------------------
+what this means javascript will evaluate 
+[age] = 70,; // it looks like array literal but do not consfuse with this 
+The javascript will evaluate at run time 
+assuming variable name (var age = 'myage')
+
+Here is javascript interview question 
+what is the values of console.log (obj.age); == > Undefined because javascript evaluate 
+the name of the property 
+so obj.myage  is the valid property and it prints the value 70
+
+Other widly popular feature of object literals is 
+when you need to define an objet with a property name to a value that exists in current scope
+                                 ------------------------------------------------------------- 
+with the exact same name. 
+------------------------
+if we have a variable name inverseofpie,
+if you want to have a same property name as inverseofpie holdig the same value then
+we can define like this 
+in stead of writing the property name twice, we can use shorter syntax to achieve the same results'
