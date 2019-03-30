@@ -1,1 +1,8 @@
 
+You can define strings in javascirpt with single quote (or) double quote 
+We have new syntax start with to define strings starts and ends with backtick (`)
+they support interpolation, that means we can inject any js expression with $ sign 
+and {} (${interpolation})curly braces ...the resulting string is contains the value of expression 
+exactly where it was injected in the string.
+you dont need to use spl charector for end of the line. You can 
+get the real multiline string with out extra code. 
