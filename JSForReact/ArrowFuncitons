@@ -11,10 +11,25 @@ const y = () => {
 
 // It's the same "this" found in Y's scope
 };
+------------------------------------------------------------------------------------------------------------------------------
+Arrow functions works more predictably with closures:  what is this means ? 
+----------------------------------------------------- 
+1. An arrow function does not care who calls it
+2. Regular funcitons care very much about that ( the value of this keyword inside function will be determined by the calling 
+environment ) 
+const x = funciton ()
+{ 
+  // "this" is the caller of x
+};
 
+3. The value of the this keyword inside arrow function depends on where the function was defined. 
+(the scope that defined the function ). This makes it great for delete execution cases like events and listners 
+because it gives easy access to the defining environment not the calling environment.
+----------------------------------------------------------------------------------------------------------------------------------
 This arrow syntax is most preferrable, becasue it is shorter..
 but also it behaves more predictably with closures....
 
-an arrow function does not care who calls it
-but a regular funciton will care verymuch who calls it..
-
+-----------------------------------------------------------------------------------------------
+Another cool thing about arrow function is if the funciton only has a single line that return something you can make it even more
+conscise by removing the curly braces and return statement.
+---------------------------------------------------------------------
