@@ -1,1 +1,8 @@
 
+Higher order function is a function that can take function as parameter and returns function as return value.
+1. Functions are first class citigens (meaning their type is object)--since functions are simply objects, 
+they can be returned the same as any other value 
+2.They can be assigned as a value of a variable
+3.They can be passed and returned just like any other reference variable. 
+
+https://www.sitepoint.com/higher-order-functions-javascript/
