@@ -1,0 +1,9 @@
+Understanding functions as values topic is very important
+it is very connected to closure I guess.. 
+
+1. Assign funcitons to a values (functions as regular values)
+2. Passing functions as a paramters to methods
+3. Returning functions from methodds
+4. Functions which creates another functions.
+5. Funcitons which changes other functions.
+6. Functions that provide new control flow.
