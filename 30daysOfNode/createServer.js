@@ -1,6 +1,6 @@
 var http = require('http');
 
-var host = "120.0.0.1"
+var host = "127.0.0.1"
 var port = 3000
 
 var server = createServer((req, res)=>{
