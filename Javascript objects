@@ -13,7 +13,7 @@ dog.speak = function(say) {
   console.log(`The dog  says '${say}'`);
 };
 
-rabbit.speak("I'm funny.");
+dog.speak("I'm funny.");
 // → The dog  says 'I'm funny.'
 
 4.why javascript is a dynamic nature (other static type languages): what is dynamic nature ? 
