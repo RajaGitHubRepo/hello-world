@@ -10,11 +10,11 @@ Methods are nothing more than properties that hold function values. This is a si
 
 let dog = {};
 dog.speak = function(say) {
-  console.log(`The rabbit says '${say}'`);
+  console.log(`The dog  says '${say}'`);
 };
 
 rabbit.speak("I'm funny.");
-// → The rabbit says 'I'm funny.'
+// → The dog  says 'I'm funny.'
 
 4.why javascript is a dynamic nature (other static type languages): what is dynamic nature ? 
 Ans) you can completely change the shapes of the objects once you have created. Below explananiton will give more understanding.
