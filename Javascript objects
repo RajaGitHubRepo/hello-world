@@ -1,6 +1,20 @@
 1. what is strict keyword ? Ans:) To nofiy erros if any issues in javascript code. 
-2. what is the importance of new key word ? 
+2. what is the importance of new key word ?
+Ans) New is a keyword used to create the new instance of a class (With Class Notation in Javascript) 
 3.what is this keyword in javascript ? expalin both with a simple example ? 
+Ans) this is the object instance which is available in funciton. you can use this keyword to access the instance members of the
+function that belongs to.
+Methods:
+--------
+Methods are nothing more than properties that hold function values. This is a simple method:
+
+let dog = {};
+dog.speak = function(say) {
+  console.log(`The rabbit says '${say}'`);
+};
+
+rabbit.speak("I'm funny.");
+// → The rabbit says 'I'm funny.'
 
 4.why javascript is a dynamic nature (other static type languages): what is dynamic nature ? 
 Ans) you can completely change the shapes of the objects once you have created. Below explananiton will give more understanding.
