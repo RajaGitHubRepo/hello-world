@@ -1,0 +1,26 @@
+Reactive Programming:
+--------------------
+Stream -> sequence of values of over time 
+example : 
+1.Mouse moving on the screen -> x, y cooridantes of each move 
+2.when you are entering a form -> each key press sending  in a jsom format is a stream 
+[
+{"name" = "R"}
+{"name" = "RA"}
+{"name" = "RAJ"}
+{"name" = "RAJA"}
+]
+3. Web socket data retrun from a real time web socket from a connection.
+4. chat window openedby user in a browser.
+
+So everything we do in web programing can be  thouht as a stream. 
+
+Reactive programming = streams + Operations -==> Is the idea is that you can create your entair program just by defining the
+different streams and different operations perfromed on that stream.
+
+Theorytically it is easy to say...but how can we tune our mind to program reactvily. 
+you define strems and oprerations -> and the rest will be taken care by framework.
+in reactive programing we don't define funcitons, we just define how our application is plumbed  together.
+streams are sequence of values over time. 
+
+
