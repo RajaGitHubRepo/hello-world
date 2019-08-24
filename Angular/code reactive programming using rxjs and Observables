@@ -1,10 +1,15 @@
 Follwoing things you are going to learn:
 -----------------------------------------
-1.Observalbles -> Streams + Operations , observable is a primitive type which describes how we want to create streams..
+1.Observalbles -> Streams + Operations , Observable is a primitive type which describes how we want to create streams..
 subscribes to then react to them, combine one or more to create new ones. 
-Objervables -> Is included in ES -7, if you want to use Observables in ES-6 you need to use RX-Library
+in previous example add is a operation a, b and c are streams. 
+Objervables -> Is not clear if it is included in ES -7, if you want to use Observables in ES-6 you need to use RX-Library
 --------------
 2.RxJs - library ("R"eactive  E"x"tensions for "J"ava "S"cript)
                   ----         ----           ----    ---- 
+ RxJs is a javascript implementation for ReactiveX Api (api has mulitple implementations for different languages c#, java etc...)       
+ rx.all.js -> which contains all of the operators. 
+ 
+                  
 3.Operators -> list of operators 
 4.Hhow to build  a simple applications using RX JS
