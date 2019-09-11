@@ -29,5 +29,38 @@ fluffy = new
 Typescript Class Properties:
 ----------------------------
 
+in a plane javascript you don't need to declare properites and it' types while declaring a class. 
+
+in typescript you can declare 
+
+class cat 
+{
+  name : string  // You can make class more explict by declaring the property in Typescript 
+                 // actually this name:string is not required in plane javascript. 
+  colour         // If we don't define the type, the compiler will not complain about the type safety. 
+  
+  constructor(name)
+  { 
+      this.name = name
+  }
+} 
+
 Public and Private accessiblity:
 ---------------------------------
+
+// class members are public by default in ES-2015 and Typescript 
+class cat 
+{
+ Private  name : string                  
+ Private  colour() {console.log('Myname is this.name')}       
+  
+  constructor(name)
+  { 
+      this.name = name
+  }
+} 
+
+let fluffy = new Cat() 
+console.log(fluffy.name) // compile time error - you can not access because those are private
+fluffy.speak() // Compile time error - you can not access because those are private.
+
