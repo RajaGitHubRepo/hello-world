@@ -1,0 +1,33 @@
+Static Types:
+-------------
+in plane javascript you can not define a specific type like string, number or date etc.
+but in typescrip you can define
+
+name: string
+age?: number  // We can use the question mart to define as a optional propery, so when an object 
+                  // of type cat is created , the compiler will not complain about it.
+DoB: dateTime 
+
+Interfaces:
+------------
+
+interface  Icat 
+{
+  name: string
+  age: number
+  DoB: dateTime 
+
+}
+
+let fluffy :ICat 
+fluffy = new 
+{
+  name = 'Fluffy'
+  age = '7'        // Errors out - Because age is declared not a number.
+}
+
+Typescript Class Properties:
+----------------------------
+
+Public and Private accessiblity:
+---------------------------------
