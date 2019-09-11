@@ -1,0 +1,4 @@
+Angular modules and Es6 modules both are differnet
+
+Angular modules helps to organise the Comoponenets, pipes, Directories etc.. in a single Module. 
+so all the components inside can make use of them. 
