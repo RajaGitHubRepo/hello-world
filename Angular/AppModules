@@ -1,0 +1,13 @@
+
+
+App Module is bootStrapped with App Component
+
+Purpose of a Module :
+
+declarations: To add componenets, pipes, directives 
+Providers[] = Services 
+Imports - for Importing other modules
+Ex : Imports : [BrowserMoudle]  // For example here we are importing browser module, this helps and 
+                                // number of core angular services and directives available in this module
+
+
