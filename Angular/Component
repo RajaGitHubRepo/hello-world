@@ -1,0 +1,5 @@
+How an Angular app is bootstrapped : The top of the Angular app is App component.
+A component is composed of 3 files 
+--a component
+--its template (html)
+--its style (css)
