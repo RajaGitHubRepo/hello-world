@@ -1,0 +1,14 @@
+ Communication between Template and Component...
+ ------------------------------------------------
+ Binidng. 
+ getters and setters and
+ 
+ view child decorator : what is it ? 
+ 
+ How to get a hold of an element in a template and work with it directly..
+ How parent and child communicates each other
+ H0w chaild communicates to its parent
+ component communicating with it self or other component by using service....
+ 
+ communicating through state management ...
+ communicating using router
