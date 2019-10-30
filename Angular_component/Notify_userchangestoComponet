@@ -1,0 +1,14 @@
+Three ways to notify user changes to component:
+
+1. Two way data binding.
+2. Getters and setters.
+3. ValueChanges Observables.
+----------------------------
+Angular provides two types for building forms : 
+1. Template Driven : We need @viewChild to communicate with template elements. 
+
+2. Reactive Forms : we build forms using Forms and groups, controls so no need of @viewChild here to communicate 
+
+In both the above cases ( template driven (or) reactive forms )  provides the valueChanges Observables (is a stream of events)
+we subscribe to observables to start recieving the events. each time a even is emited funciton defined in the 
+subscribe method is executed.
