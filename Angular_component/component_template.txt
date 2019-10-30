@@ -31,22 +31,23 @@
  @input
  Getters and setters
  OnChanges Life cycle hooks
- /////////////////
- 
- 
+ ///////////////// 
  @input - decorator ( this allows the parent to pass the data to child component) 
  if the child componnet needs to moniter the changes from that data from the parent component 
  the clinet component can set up getters and setters 
  or handle the OnChanges life cycle hooks
- _____________
- 
+ _______________________________________________________________________________________________________ 
  Parent can also request the information from the clild.
  for example parent want to have one of hte property of a child component
- for filter by example the parent want to have . 
- 
- to do above , it first needs the reference to child component 
- 
- 
+ for filter by example the parent want to have .  
+ to do above , It first needs the reference to child component by using template referece.
+ The parent component gets that reference component using template referece variable 
+ and @ViewChild decorator : We can also use services as comminication medium to communicate 
+ between parent and child. 
+ ////////////////////////////
+ Template reference variable
+ @ViewChild
+ ////////////////////////////
  
  How chaild communicates to its parent
  component communicating with it self or other component by using service....
