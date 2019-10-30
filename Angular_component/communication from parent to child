@@ -1,1 +1,23 @@
 
+
+Input -> Passing data to the clild 
+
+Child component:
+-----------------
+step 1 : Child component Define a property with @input decorator 
+@input DispalyDetails : boolian 
+
+Parent Template : 
+-----------------
+<PM-Criteria DispalyDetails = true> binding this to pass data from parent to child 
+</PM-Criteria>
+
+Parent component can bind a value, or expression or one of its own properties -> in the above 
+example we pass the value 'true' . Instead of true above we can pass pass the parent property 
+Parent component:
+------------------
+
+IncludeDetails : boolean = true;
+
+<PM-Criteria [DispalyDetails] = 'IncludeDetails'> 
+</PM-Criteria>
