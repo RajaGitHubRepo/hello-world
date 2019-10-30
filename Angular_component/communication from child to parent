@@ -16,11 +16,20 @@ Example: Output property :
 Parent template:
 ----------------
 
-
+<PM-Criteria>
+(valueChange) = 'OnValueChange($event)'
+</PM-Criteria>
 
 Parent Component :
 ------------------
 
+OnvalueChange(value : string) : void 
+{
+this.PerformSomeAction(string)
+}
+
 
 Child Component : (the clild can pass the event infomation ( data also called as event payload)
 -----------------
+@output valueChange:EventEmiter<string>
+this.valueChange.Emit(value)
