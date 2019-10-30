@@ -1,1 +1,26 @@
+in order the parent to konw the changes happend on the client. 
+The client needs to notify the changes on its to the parent. 
 
+by using ouput proprety defined with @Output decorator.
+This allows child component to emit the events to parent component. 
+
+The child component provide the methods and properties 
+and expects the parent component to access them. 
+Template reference variable 
+or the @viewChild Decorator , to obtain the refernce to the child component 
+once it has the refercne to the child, it can access the childs properties 
+or call its methods 
+
+Example: Output property :
+
+Parent template:
+----------------
+
+
+
+Parent Component :
+------------------
+
+
+Child Component : (the clild can pass the event infomation ( data also called as event payload)
+-----------------
