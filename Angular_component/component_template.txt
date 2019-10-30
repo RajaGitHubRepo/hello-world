@@ -30,7 +30,8 @@
  /////////////////////
  @input
  Getters and setters
- OnChanges Life cycle hooks
+ OnChanges Life cycle hooks  -> Getters and setters and OnChanges life cycle hooks to monitor the changes happend 
+ on the parent and update accordingly on the child component....
  ///////////////// 
  @input - decorator ( this allows the parent to pass the data to child component) 
  if the child componnet needs to moniter the changes from that data from the parent component 
