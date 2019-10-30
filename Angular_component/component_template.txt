@@ -10,8 +10,45 @@
  
  
  How to get a hold of an element in a template and work with it directly..
- How parent and child communicates each other
- H0w chaild communicates to its parent
+ -------------------------------------------------------------------------
+ @viewchild to get hold of native html element, and by this native html element we can 
+ accees the properites and methods of native html element.
+ 
+ 
+ How parent and child communicates each other : 
+ -----------------------------------------------
+ Parent can push data to the child component, and also parent component can pull data from the child.
+ If you design a search or fileter box as child component, we can use this child 
+ component in many parent components for filtering options. 
+ 
+ Configuration parameter parent can setup.
+ Parent coponent may provide default value, that want to pass to child component. like last enterd filter criteria.
+ In the case where parent componet managers the list of items and the clild component displays one of those items, 
+ parent component can pass the items data to the clild.
+ Parent component can also want the child to perform 
+ the action ( for example chile may have clear or reset method the parent want to call).
+ /////////////////////
+ @input
+ Getters and setters
+ OnChanges Life cycle hooks
+ /////////////////
+ 
+ 
+ @input - decorator ( this allows the parent to pass the data to child component) 
+ if the child componnet needs to moniter the changes from that data from the parent component 
+ the clinet component can set up getters and setters 
+ or handle the OnChanges life cycle hooks
+ _____________
+ 
+ Parent can also request the information from the clild.
+ for example parent want to have one of hte property of a child component
+ for filter by example the parent want to have . 
+ 
+ to do above , it first needs the reference to child component 
+ 
+ 
+ 
+ How chaild communicates to its parent
  component communicating with it self or other component by using service....
  
  communicating through state management ...
