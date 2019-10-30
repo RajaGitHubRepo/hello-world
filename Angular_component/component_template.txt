@@ -50,7 +50,4 @@
  ////////////////////////////
  
  How chaild communicates to its parent
- component communicating with it self or other component by using service....
- 
- communicating through state management ...
- communicating using router
+
