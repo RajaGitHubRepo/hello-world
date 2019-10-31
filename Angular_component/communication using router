@@ -10,5 +10,18 @@ this.route.navigate (['/Products', this.Product.id])
 Read the paramter from the route using syntax like below
 this.Route(ActivatedRoute Service).snapshot.ParamMap.get(Id) 
 
-Optional parameters or Query parameters
----------------------------------------
+Optional parameters 
+-------------------
+when defining optional parameters, we dont specify them as part of route configuration.
+but we specify the route parameters when activating the route.
+IN the template
+<a [RouterLink] = [Products, {name = '', filterby = ''}] => optional paramters as object
+
+
+in the code (Component)
+this.router.navigate(['/prodcuts', name {name = '', filterby = ''}])
+
+ products;name =cart  ;filterby = xyZ =>each value is seperated by comma.
+
+Query parameters
+-----------------
