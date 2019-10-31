@@ -1,1 +1,14 @@
 
+Required parametes -> ex products/:id/:xyz -> you can specify any number of paramters.
+--------------------
+To acivate the route using button click or click on anchor tag
+use the [RouterLink] = [] specify the number of peramteters here 
+
+To activate the route in the code use 
+this.route.navigate (['/Products', this.Product.id])
+
+Read the paramter from the route using syntax like below
+this.Route(ActivatedRoute Service).snapshot.ParamMap.get(Id) 
+
+Optional parameters or Query parameters
+---------------------------------------
