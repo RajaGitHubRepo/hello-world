@@ -1,18 +1,3 @@
- Communication between Template and Component...
- ------------------------------------------------
- Binidng. 
- getters and setters and
- 
- view child decorator : what is it ? 
- We use view child and view children (to obtain reference to multiple elements) to communicate with its template (Native element or elements). By getting the native element reference , you can access the native html element properties (like name, type, value etc... ) or call its methods
- such as focus, blur, or select etc... methods 
- viewChild has an issue with ngIf -> what is that issue? and how to resolve it. 
- 
- 
- How to get a hold of an element in a template and work with it directly..
- -------------------------------------------------------------------------
- @viewchild to get hold of native html element, and by this native html element we can 
- accees the properites and methods of native html element.
  
  
  How parent and child communicates each other : 
