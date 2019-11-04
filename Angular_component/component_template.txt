@@ -3,7 +3,8 @@
   1. Two way bindiing - long way
   2. Getter and setter (in the component class)
   3. valueChanges Objervables (this is available with Angular forms directive) Even the input element is not on a form,
-  like in our example filter by is not on a form. 
+  like in our example filter by is not on a form. (Befor going to understand this, we need to understand the viewChild and 
+  viewChildren directives)
  
  Two way binding is combination of property binding and evenbinding.
  
@@ -11,6 +12,9 @@
  Typescript provides two ways to define a property.
  1. Most common technique is decalre name of the property : and its type
  2. The other way is two functions getter and setter 
+ 
+ Guidelines communicating whth Template: 
+ ---------------------------------------
  
  How parent and child communicates each other : 
  -----------------------------------------------
