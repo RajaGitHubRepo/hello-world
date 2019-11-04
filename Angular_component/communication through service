@@ -1,1 +1,21 @@
 
+We can use service as a storing machanism to store data or state
+there it can communicate that state to other components.
+
+What is state means ? 
+
+Several techniques to manage and store state :
+ there are many machanism to track the state: 
+   1. Property bag - They are just bags of properties 
+   2. Angulars built in change detection
+   3. statemanagment with notifications - like subject, behaviour subject (subjects are way to provide notifications when
+   we can not leverage the angulars built in change detection) to communicate state changes.
+   4. NgRx/Redux -> powerful state management library (Ngrx provides well defined pattern and techniques for 
+   handling complex stete through out an application.But it requires lot of configuration and coding for maintenence. 
+   
+
+Property bag service : 
+    component communicates to it self
+    component communicates to other componenet 
+
+Service scope and lifetime : 
