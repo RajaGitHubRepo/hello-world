@@ -43,4 +43,5 @@ and each instance of the service is destoryed, when each component is destroyed.
 If we register a service in a module, regardless of the module you register, it is available through out the application. 
 
 how ever if a module is lazy loaded, the story is bit different, services registered in a lazy loaded modules 
-are only available to components declared in that modules (Declarations array)
+are only available to components declared in that modules (Declarations array), they are still available through out 
+the life time of the application.
