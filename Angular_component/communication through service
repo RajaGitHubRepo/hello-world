@@ -17,5 +17,19 @@ Several techniques to manage and store state :
 Property bag service : 
     component communicates to it self
     component communicates to other componenet 
+    
+    Example : suppose our list page has search button, when user performs the search, and navigate to the details page. and when comes
+    back again to the list page, the serch criteria is lost. 
+    
+    when moving from one component to antother component, teh first component is destoryed, and new component being displayed in
+    initilased, when we go back to the first component , the componenet is being re initialised again. 
+    
+    to save the state , we can use servivcie to store the state, when it is being destored.
+    we can think of this as a bag of properties of values.
+    
+    We use setters to store those values in service properties ...that way the service holds the values even though
+    the component gets destroyed. when the component re initialised it used the getters to get the values from the 
+    service. 
+    
 
 Service scope and lifetime : 
