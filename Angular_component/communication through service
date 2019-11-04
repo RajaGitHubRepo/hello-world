@@ -31,10 +31,16 @@ Property bag service :
     the component gets destroyed. when the component re initialised it used the getters to get the values from the 
     service. 
     
-    We can also use property bag (Service ) to commuinicate between the components.
-    
-    
+    We can also use property bag (Service ) to commuinicate between the components.  
 
 Service scope and lifetime :  when we create a service, we regiester them in a module or commponent (providers array).
 which to use when ? IF you regisger a serivce on a component (the service is available for it and its children) and 
 the service is avaialbe only when the component is loaded, when the component is destroeyd, the service is also not available.
+
+If you register the service, in two components, then two instances of service is created (so not the same data is present in the service)
+and each instance of the service is destoryed, when each component is destroyed.
+
+If we register a service in a module, regardless of the module you register, it is available through out the application. 
+
+how ever if a module is lazy loaded, the story is bit different, services registered in a lazy loaded modules 
+are only available to components declared in that modules (Declarations array)
