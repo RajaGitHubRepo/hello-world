@@ -60,7 +60,14 @@ changes. But how does it work in service ? Change detection works by having the 
 angular internally checks the changes and updates automatically.
 
 
-
-
+Getter : is a usefull technique to keep the bound data in sync
+-------
+   1. Deine a property in a servcie
+   2. Bind that property in a template
+   3. User the getter in a component class.
+   
+   By doing above , angulars change detection performs the rest.
+   How ever the above technique only works for bound data.
+   
 
 
