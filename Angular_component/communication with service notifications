@@ -1,1 +1,16 @@
+Services are not only great for sharing data. They can also provide notifications. 
 
+In this section, we will learn how to communicate through service by broadcasting 
+changes throguh service. 
+
+A service can broad cast notification, like user is looged out (or) a new prodcut is added. 
+Instead of a component asks for a new state. The service can broadcast a notification. 
+
+so this does not needto be a state management service, we can add this notification machanism 
+to any service. 
+
+Broad casting service notifications:
+------------------------------------
+-- Event Emitter
+-- Subject
+-- Behaviour subject
