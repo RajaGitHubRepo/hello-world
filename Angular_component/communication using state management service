@@ -1,2 +1,57 @@
 
 We discuss change detection here: 
+with this we share entities through out the applciation ( such as prodcuts ) 
+display multiple concurrent components
+Keeping these state of components in sync.
+Angulars built in change detection - How it communicates changes to that state. 
+
+Explanation: 
+------------
+We use data access service which get the data from the back end server (Web api) and do 
+the udpates and save back to the back end service. 
+
+If the data changes very often, then we need to pull the data from back end service 
+(to get the updated information from back end service)
+
+If the data does not changes very often, We can use the state management service, 
+which is (There is no need to re get the data every time)
+so we need to change the data access service to state management service
+State Mananagement Service --  whcih also holds the entity data when frist retrieved and 
+holds this data and share this data when ever requires. 
+
+State Management Service: 
+ 1. Provides state values.
+ 2. Maintain and updates state.
+ 3. Observe state changes. 
+
+When we do get -> frist time we get the data from the back end servcie and update in 
+the enity data property of the State Management Service.
+
+When we update, add, delete the entities we make sure that along with updating the 
+back end data , we also update the enitity data property avaialbe in the service. 
+
+This state managment service technique may not be approroate, when multiple
+users are updateing the data.. In that case DataAccessService is the good approach, as 
+for each operation we get the data from the backend server.
+
+Since getProdcuts() -> to get the list of products returns the observable. 
+if the prodcut data available, we can use of (observable operator ) to return the service. 
+
+ if (this.prodcuts)
+ { 
+      return of(this.products) 
+ }
+ 
+ return this.http.get<IProduct[]>(this.ProdcutUrl)
+              .Pipe(
+              tap(data => console.log(data))
+              catchError(this.HandleError)
+              
+
+              )
+
+
+
+
+
+
