@@ -49,6 +49,16 @@ if the prodcut data available, we can use of (observable operator ) to return th
               catchError(this.HandleError)
               )
 
+managing state in these scenario means -> When Update, Create, Delete cases make sure to update the 
+Property (Prouducts) to update the updated information along with updateing in back end server.
+
+What is Angulars built in change detection: 
+---------------------------------------------
+
+Change detection watches for changes in the bound property values and updates the changes when the property values 
+changes. But how does it work in service ? Change detection works by having the property binding and getters. by this 
+angular internally checks the changes and updates automatically.
+
 
 
 
