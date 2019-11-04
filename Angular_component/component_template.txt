@@ -1,3 +1,9 @@
+ Notify the component of user changes :
+ --------------------------------------
+  1. Two way bindiing - long way
+  2. Getter and setter (in the component class)
+  3. valueChanges Objervables (this is available with Angular forms directive) Even the input element is not on a form,
+  like in our example filter by is not on a form. 
  
  
  How parent and child communicates each other : 
