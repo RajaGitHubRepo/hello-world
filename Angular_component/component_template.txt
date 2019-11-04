@@ -5,6 +5,12 @@
   3. valueChanges Objervables (this is available with Angular forms directive) Even the input element is not on a form,
   like in our example filter by is not on a form. 
  
+ Two way binding is combination of property binding and evenbinding.
+ 
+ Like c# and java:
+ Typescript provides two ways to define a property.
+ 1. Most common technique is decalre name of the property : and its type
+ 2. The other way is two functions getter and setter 
  
  How parent and child communicates each other : 
  -----------------------------------------------
