@@ -1,0 +1,15 @@
+for large applications managing state is more complemx 
+as components react to that state changes.
+
+What state : 
+1. Information about the view, such as weather to dispaly specific view elements or U.I elements
+2. It can be user information, such as users name and roles 
+3. It can be entity data such as product information 
+4. User selecte input such as currently selected product or entered filter string or any information user 
+has selected. 
+
+
+Purposse of NGRX:
+ 1. Provide formal pattern for organising application state in to one single local state container.
+ 2. Managing that state by requiring one way data flow.
+ 3. Communicating that state changes to our components, so they can react accordingly. 
