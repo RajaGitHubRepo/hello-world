@@ -1,0 +1,20 @@
+We can configure angular project by adding extension (TSLint) is a typescript linting.
+Linting defines set of rules for consistency of code for your team. 
+like 
+ 1. Alwasy use semicolon at the end of statements
+ 2. Enforce const if you are not modifying the variables
+ 3. enforcing curly braces even for single line, enforce spacing etc.. 
+ All those rules, we can configure (tslint.json), if the angular code did not fix these errors the build is not succesufull.
+ 
+ Some linting errrors are auto fixable. 
+ 
+ 
+ 
+ how to run ts lint from command line : 
+ --------------------
+ 
+ ng Lint  --> to give you linting errors.
+ ng lint --fix --> to fix the automatic linting errors. 
+ 
+ 
+ 
