@@ -1,0 +1,22 @@
+Loading strategies for our lazy loaded modules : 
+------------------------------------------------
+This really does make differnce in performace of our application.
+not the size of the downloads but the percieved performace.
+
+If your application has a lazy loaded module (the route path is a lazy loaded path)
+we can tell angular how to load that module. The default way is to load the module 
+on demand.
+
+suppose if you have a usermodule ...when you click on login button, then only this
+module is getting loaded.  -> this is called loading on demand.
+
+now lets change the loading strategy to pre fetch as soon as possible. 
+
+PreLoadingStratergy : PreloadAllModules -> you can customise the preloading 
+strategy, so you can optimise the loading strategies. 
+Suppose if you have modules of larger size, pre fetching will improve the 
+percieved performace of angular applications.
+
+
+
+
