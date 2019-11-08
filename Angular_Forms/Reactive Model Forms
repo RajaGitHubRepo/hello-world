@@ -1,0 +1,10 @@
+Anogther way of processing forms -> Reactive Model forms:
+We are going to see : 
+FormGroup & FormControl Observables 
+debounceTime & distinctUntilChanged RxJs Observable operators
+
+We can process a model driveform with an Observalbe chain. 
+with both reactive forms and RxJs Operators we can provide powerful funcitonality 
+with a few lines of code.
+
+When Reactive Model Forms : 
