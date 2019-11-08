@@ -1,0 +1,10 @@
+By calling a funciton on submission on the form..
+and processing the form action in that function. 
+
+But with the angular, we have another means of processiong a form, by means of Observalble chain. 
+which we then can subscribe to.
+By using Reactive forms and Rxjs Operators we can implement powerful functionality with a few lines of code.
+Reactive forms is better when we need realtime processing of the form 
+
+and treditional model driven forms whth submit and process the form action -> 
+this is useful when there is a distinct action applied when user pressses a button. 
