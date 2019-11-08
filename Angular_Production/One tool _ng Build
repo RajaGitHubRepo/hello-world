@@ -1,1 +1,41 @@
 
+In order to take our angular code to production, We need to build our angular app.
+ng build 
+---------
+
+1. ng build produces deliverable code packages and make optimisations as well. 
+2. Optimizaition means whle code running in production takes fast and takes minimum number of resources.
+
+
+What optimisations it will do ? 
+-------------------------------
+ 1. It turns development mode off (dev mode have change detection)
+ 2. Bundling --> All javascript files bundled in to one single file, so we have less requests going over the wire
+ 
+ 3. Minification -- > Removes all things which not required for javascript compiler such as browser ( like white spaces).
+ Other advanced settings like (rename your parameter names to lesser length etc...)
+ 4. Tree shaking -> suppose if you write a method in your code and you did not used it (that means there is no reason that method shold
+ present in your class ) these methods will not make in to production bundle.
+ 5. Dead code elemination --> this is also same as tree shaking making sure .. the production bundle has only useful code.
+ 
+ 6. Asset inlining --> this is the process where small assets like css files and images are actually bundled up and inline with 
+ javascript code, so we can avoid few requestes and reduce overhead -> so your application will perform better. 
+ 7. Execute the AOT compiler ( with newer version of angular, it is happening even when we run in development mode) 
+    ------------------------
+    
+    What happens when we run Ahead Of Time compiler ?  
+      --> AOT is a process that runs during angular build that handles angular templates (.html) to javascript files (.js)
+      --> this helps the rendering faster in production. (the converstion happens in build time itself so in procution actually
+      we are reducing one step for rendering, that means render the ui is faster)
+      --> AOT will detect errors on template 
+      --> AOT enforces better security.
+      
+      The biggest job of AOT is compiling Temmplates, When angualr runs in browser the big piece that goes on is 
+      template. Ultimaltly the code you write needs to show something in the browser, so the user has some interaction.
+      that means manipulating the DOM ( we authored templates to let angular know what needs to be done ) we use bindings
+      events, directives and components in our html templates.This HTML is useless as it is, It has to turn in to javascript 
+      instructions so that browser can actually manipulate the dom and renders something to the user.
+      
+      That whole process is called Angular compiler which takes HTML templates and turns them in to javascript instructions
+      to manipulate the DOM.
+    
