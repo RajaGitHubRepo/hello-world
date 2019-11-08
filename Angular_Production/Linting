@@ -1,4 +1,4 @@
-We can configure angular project by adding extension (TSLint) is a typescript linting.
+We can configure angular project by adding extension (TSLint) is a typescript linting. (prettier is also anther tool just like linting)
 Linting defines set of rules for consistency of code for your team. 
 like 
  1. Alwasy use semicolon at the end of statements
