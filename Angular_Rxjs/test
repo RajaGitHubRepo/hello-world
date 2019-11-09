@@ -1,1 +1,23 @@
 
+Observables : cany be any thing 
+finate or infinate time : like http requst once reaponse is retrun it is finate 
+events from elements - its infiniate
+
+Observers : any object whihc implements simple interaface ( next (), error(), complete() ) 
+3 types of messages an observable can produce.
+
+next() -> they push the next value in the data stream to the observers 
+errror() -> If they encountered the error, they call the error method..
+complete() -> When observables done prodcuing values, they call complete.  
+
+Subscripbers is a specific type in rxjs it also observer since it implements 
+the observer interface (next, error, complete)
+
+you can use Observables in 3 ways:
+----------------------------------
+1. Create from scrach 
+2. covert from array or some tyeps
+3. return from api end points 
+
+contorl + shift + space ==> to have visula studio code to show the number of paramters for contsturctor 
+
