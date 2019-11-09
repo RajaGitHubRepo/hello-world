@@ -1,1 +1,12 @@
 
+Here we are going to discuss : 
+-------------------------------
+
+1.How to create Observers and how to use observers to consume the observable. 
+2.How to consume the values produced by those observables.
+3.How to consume not just values (but also erros and completion messages)
+4.What exactly it means to subscribe to an observable ? 
+5.what happens when multiple observers subscribe to same Observable ? 
+6.what is subscription object ? and how it is usful for cancelling the subscription of observables. 
+
+
