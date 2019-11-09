@@ -1,0 +1,19 @@
+Observables are great way to handle DOM events. 
+below example shows how ot handle button click event :
+------------------------------------------------------
+
+HTML :
+-----
+
+<button id="readersList">List of Readers<button>
+
+TS file :
+----------
+let button = Document.GetElementById("readersList");
+
+let enventRecieved$ = FromEvents (button, "Click") ==> accpets two paramters 
+1 => Target Element 
+2 => event Name    
+
+enventRecieved$.Subscribe( evnet => Console.log(event));
+
