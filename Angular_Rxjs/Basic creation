@@ -21,3 +21,26 @@ you can use Observables in 3 ways:
 
 contorl + shift + space ==> to have visula studio code to show the number of paramters for contsturctor 
 
+Convert from array or some types:
+---------------------------------
+of, from , fromEvent --> are some operators from 'rxjs'. of() => has 10 overloads so it is very flexible.
+Of () is a very flexible , it can take any type with comma ',' Seperated list of values. 
+
+From funciton: From is similar to of ( but From takes encapsulated object of values) of can take
+many individual values as input paramters.
+
+
+let source1$ = of("string", 10, "numbr", 1) ; 
+source1$.subscribe(value => console.log(value));
+
+let source2$ = from (booksArray);
+source2$.subscribe(book => Console.log(book.title));
+
+How to create a observables from more than two observables :
+Use Concat Function:
+---------------------
+let source3$ = concat(source1$, source2$) ;
+source3$.subscribe(value => Cosole.log(value));
+
+
+
