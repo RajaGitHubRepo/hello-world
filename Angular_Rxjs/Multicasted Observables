@@ -1,1 +1,5 @@
 
+Multicasted Observers to recieve values from a single execution of an Observable.
+we first talk what are subjects are and how they acts as both Observales and Observers.
+Cold and Hot Observalbes 
+Explore Several operators that use subjects behind the scene to enable the multicasting of values...
