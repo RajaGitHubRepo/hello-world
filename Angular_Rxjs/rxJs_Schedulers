@@ -1,2 +1,25 @@
 Controlling values with Schedulers :
 -----------------------------------
+Sometimes you may need to have littlebit of control over how the Observables are exectued...
+Schedulers are the tools that gives us extra bit of control..
+Schedulers Control :
+-------------------
+1)Observales begin executing and When 
+2)Notifications are delivered to its Observers 
+
+Objervable creations funcitons actulally have a option to send scheduler as an optional pameter..
+you only need to provide the Scheduler only when you are deviating from the default behaviour..
+
+We discuss some of the schedulers included With RXJS: 
+and reiview with how they work with Javascript event loop.
+
+Schedulers available in rxjs:
+------------------------------
+1. queueScheduler -> this is the simple scheduler, used for syncronus execution.
+2. asyncScheduler -> as the name implies to be used for executing asynchronus execution. Values produce 
+   asynchronusly, and wont stope the javascript event loop, when executing... 
+3. asapScheduler --> 
+4. AnimationFrameScheudler --> They can be used for smooth browser animations.
+5. TestScheduler -> for unit test purpose... import {testScheduler} from 'rxjs/test' 
+   only needed when execuing the rxjs tests..
+
