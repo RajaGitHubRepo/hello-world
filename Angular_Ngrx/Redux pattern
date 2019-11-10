@@ -22,6 +22,19 @@ Three principles
 
 
 Action : 
-Reducer :
-Store (local store) State : 
+Reducer : Takes the stae from the store if already exists and creates a new state (as it is immutable)
+Store (local store) State : is a tree like object (which organises in to moudles and properties)
+you need to install @ngrx/store package
+  Import {StoreModule} from 'ngrx/store';
+
+@NgMoudle({
+Imports : [BrowserModule, 
+RouterModule.forRoot(),
+StoreModule.forRoot()
+]
+})
+export class AppModule
+{
+}
+
 Selector : 
