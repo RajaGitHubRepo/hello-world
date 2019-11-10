@@ -1,1 +1,10 @@
 
+Bootstrap has some .js files, 
+to use some of the components from bootstrap, you need to use Jquery.
+
+ng-bootstarp => you dont have to use jquery, you can just use them 
+as angular components.(In that way you can avoid using jQuery) 
+
+Angualr Material => the look and feel is like Google apps ( dialogs and all are
+looks like they just looks like in Google apps)
+
