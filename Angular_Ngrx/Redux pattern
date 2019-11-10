@@ -21,9 +21,14 @@ Three principles
 
 
 
-Action : 
-Reducer : Takes the stae from the store if already exists and creates a new state (as it is immutable)
-Store (local store) State : is a tree like object (which organises in to moudles and properties)
+(*)Action : 
+---------
+(*)Reducer : 
+----------
+Takes the stae from the store if already exists and creates a new state (as it is immutable)
+(*)Store (local store) State : 
+----------------------------
+is a tree like object (which organises in to moudles and properties)
 you need to install @ngrx/store package
   Import {StoreModule} from 'ngrx/store';
 
@@ -40,4 +45,5 @@ export class AppModule
 // As we discussed store is organised in to features (just like feature modules) are also called slices. 
 // we create number of reduceres for each slice in the store. (like product reducer, customer reducer, user reducer etc...)
 
-Selector : 
+(*) Selector : 
+----------
