@@ -1,14 +1,14 @@
 
-App Module vs Lazy loaded module ( feature module)
+App Module vs Lazy loaded module ( Feature module)
 
-Below are the two differntces : 
+Below are the two Differntces : 
 --------------------------------
-AppModule has Imports:[BroserMdule] -> 
+AppModule has Imports:[BroserMdule] ->  
 browser module
-routerModule.forRoot() --> we will pass the routes here.
+routerModule.forRoot() --> We will pass the routes here.
 
-FeatureModule : has CommonModule and 
-routerModule.forChiled () -> we will pass routes here
+FeatureModule : Has CommonModule and 
+routerModule.forChiled () -> We will pass routes here
 
-when the route starts with /User  load the user moudle like below
+When the route starts with /User  load the user moudle like below
 {path: 'user', loadChildren: './user/user.module#userModule' }
