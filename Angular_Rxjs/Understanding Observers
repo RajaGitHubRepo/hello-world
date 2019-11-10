@@ -10,7 +10,40 @@ Observers implement observers Interface (Implement3  methods next, error, comple
 5.what happens when multiple observers subscribe (or Observing) to same Observable ? ==> 
    Suppose you create a observable to get the current time.
    and create 3 observers to the above Observable at 1 sec delay/
-   When you console the values of tiems -> they each print at 3 different intervals.
+   When you console the values of tiems -> They each print at 3 different intervals.
+   ******************************************************************
+   ------------------------------------------------------------------
+   Each observer triggers a new execution of the same Observable 
+   ---------------------------------------------------------------
+   ********************************************************************
 6.what is subscription object ? and how it is usful for cancelling the subscription of observables. 
-
+   Subscription object did not expose lot of functionality, the main purpose of the
+   subscription object is to cancel the Observer
+   call Unsubscribe -> that exist on the subscription object. 
+   
+   Example : Cancel the observable by the button click. 
+   --------
+    
+   <button id = "cancelsubscription"> Cancel subscription </button>
+   <div id = "timesDiv">
+       
+   </div>
+   
+   TS file:
+   --------
+   
+   import {Interval, fromEvent} from 'rxjs' ; 
+   
+   let timer$ = Interval(200); // this produces a stream of integers 1,2 ...etc..
+   let timeSubscription = timer$.Subscribe(
+      value => timesDiv.InnerHtml + = `${new Date()}.ToLocalTimeString() (${value}) <br>`,
+      null // no error handling 
+      () => console.log("All Done");
+   )
+   
+   let button = Document.getElementById("cancelsubscription");
+   fromEvents (button, "click").Subscribe (event => timerSubscription.UnSubscribe());
+   
+   
+   
 
