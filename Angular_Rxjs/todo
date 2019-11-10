@@ -1,0 +1,6 @@
+Pending from : rxjs: GettingStarted
+Nov- 10 - 2019
+---------------
+1. Shedulers and js eventloop (how to use asyncScheduler)-> Js is a single thread, how event loop works here.
+2. Types of Operators 
+3. how to creates subjects and use them (as both Observalbes and Observers)
