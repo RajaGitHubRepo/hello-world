@@ -1,1 +1,22 @@
 
+Subjects are Observales:
+-------------------------
+They Implemented as a child class of the Observable class
+This means they have subscribe method that can be pass as an objesrver just like any other Obsrvalble.
+
+They are also Observers :
+-------------------------
+All subjects have method names 'next, error, complete' which menas they can 
+also acts as Observers and can subscribe to Observables: 
+
+Beeing Subjects are both Observable and Observers, this posses some interesting capabilities...
+
+Since Subject is a objeservale ( productes values) , 
+subject created Proxys of vlaues and also maintains state and maintains list of Observers..
+because they maintain the list of observers, subjects can push values to more than one 
+Observer at a time. 
+This makes them Multicast instead of UniCast...
+-----------------------------------------------
+
+
+
