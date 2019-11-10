@@ -20,6 +20,6 @@ Schedulers available in rxjs:
    asynchronusly, and wont stope the javascript event loop, when executing... 
 3. asapScheduler --> 
 4. AnimationFrameScheudler --> They can be used for smooth browser animations.
-5. TestScheduler -> for unit test purpose... import {testScheduler} from 'rxjs/test' 
+5. TestScheduler -> for unit testing your Observables... import {testScheduler} from 'rxjs/testing' 
    only needed when execuing the rxjs tests..
 
