@@ -1,0 +1,17 @@
+App Shell (Application Shell) 
+------------------------------
+architecture is one way to build PWA (Progressive web Apps).
+The App shell is the minimum (HTML,CSS and Javascript ) required to power the user Interface when 
+cached Offline, Can ensure reliably good performance. 
+
+Service workder
+----------------
+For SPA (Single Page Applications) with heavy Javascript applications this App Shell approach
+aggressivly depends on Service workder (for caching the shell).
+
+PWA (Progressive Web Apps):
+---------------------------
+Charectarstics of PWA. 
+  1. Reliable -> Loads instantly, even with bad network conditions
+  2. Fast -> Responds quickly to user interactions 
+  3. Engaging -> Feels like natual app on the device ( user engagements like push notification, Readly opened from desktop etc.. )
