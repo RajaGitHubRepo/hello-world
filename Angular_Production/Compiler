@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=kW9cJsvcsGo ( Angular Compiler Tobias Bosch)
+Performance : 
+-------------
+what do you mean by your application is fast and performance:
+
+1. Page Load
+2. Route Navigation (Switching a route) 
+-----------------------------------------
+[the framework needs to destroy evnerything it has to Destroy DOM and Create new DOM], it's not keeping the 
+structure. 
+3. Loading values 
+
+We discuss about Route Naviagation: 
+
+Route Navigation:  We need Bench Mark Deep Tree BenchMark
