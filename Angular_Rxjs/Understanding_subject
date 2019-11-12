@@ -12,10 +12,12 @@ also acts as Observers and can subscribe to Observables:
 Beeing Subjects are both Observable and Observers, this posses some interesting capabilities...
 
 Since Subject is a objeservale ( productes values) , 
-subject created Proxys of vlaues and also maintains state and maintains list of Observers..
+subject creates Proxys of vlaues and also maintains state and maintains list of Observers..
 because they maintain the list of observers, subjects can push values to more than one 
 Observer at a time. 
-This makes them Multicast instead of UniCast...
+This makes them Multicasted Observables ==> they allow multiple observers to recieve values from single execution of 
+Observable(subject, multicast)
+instead of UniCast...
 -----------------------------------------------
 
 
