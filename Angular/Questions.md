@@ -26,3 +26,12 @@ A seperate child injector will be always created. (not the root injector).
 Even though the above component moudle is Lazy loaded or eagerly loaded. 
 The servcie is only available for this component. 
 
+## what is the difference between root Injector, child Injector and which scenarios child injector is created?
+Child injector is created when moudle has proviers array with serviice (lazy /oaded modules). This servcie is only avialbe for
+this module. 
+Child Injector is created when component has providers array with service () this service is only avaialbe for this component.
+
+## Injector bubbling 
+
+
+
