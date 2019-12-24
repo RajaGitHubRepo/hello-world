@@ -23,6 +23,7 @@ NGRX is a popular statemangement pattern called Redux tailered to Angular using 
  3. Getting data gain and again from backend (and it won't keep change) Redux pattern allows you to store the data 
     locally as a cache. 
  4. Notify to all (The reducer updates the store and the store notify's to all subscribers ) 
+ 5. it has great tooling if something went wrong. 
  5. Managing that state by requiring one way data flow.
  6. Communicating that state changes to our components, so they can react accordingly.  
   
