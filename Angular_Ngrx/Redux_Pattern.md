@@ -26,6 +26,14 @@ by using redux we can build predictable state containers for javascript apps.
 
 ## NGRX effect:
     To manage side effects we use NGRX effects library. 
+    
+## Advantages of Redux pattern:
+    1.Easy make angular change detection strategy in you components called "OnPush"
+    2.Writing Unit tests is easy 
+    3.Tooling, visualising the state tree, debug by un doing or re doing 
+    4.component communcication 
+    
+## What is pure functions, and what are the advantages or using them in Redux pattern especially Reducers ? 
 
 Components don't put the information in to the store, rather they dispatch an action for the reducer to update the store. 
 Components don't read the information from the store, then they use selector to recieve state change notfications.
