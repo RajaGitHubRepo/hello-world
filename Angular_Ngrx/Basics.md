@@ -1,4 +1,4 @@
-## course details get from below
+## Course details get from below
 https://app.pluralsight.com/library/courses/angular-ngrx-getting-started/table-of-contents
 
 for large applications managing state is more complemx 
