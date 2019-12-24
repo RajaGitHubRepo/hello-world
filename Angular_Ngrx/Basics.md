@@ -5,6 +5,9 @@ for large applications managing state is more complemx
 as components react to that state changes.
 
 ## What is state : 
+it can be data which is stored in backend database or any user provided input information 
+ like filter string or user input selection etc... if you want to reuse that information you
+ can treat it as a state. 
 1. Information about the view, such as weather to dispaly specific view elements or U.I elements
 2. It can be user information, such as users name and roles 
 3. It can be entity data such as product information 
@@ -15,7 +18,7 @@ has selected.
 NGRX is a popular statemangement pattern called Redux tailered to Angular using standard angular concepts and techniques.
 
 ## Purposse of NGRX:
- 1. Provide formal pattern for organising application state in to one single local state container.
+ 1. Provide formal pattern for organising application state (Data, Either it is a backend (or) user provided input data or fileter string     etc... ) In to one single local state container.
  2. Managing that state by requiring one way data flow.
  3. Communicating that state changes to our components, so they can react accordingly. 
   
