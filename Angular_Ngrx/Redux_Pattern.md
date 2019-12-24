@@ -1,7 +1,7 @@
 Redux is not just for Angular, almost all front end frameworks use this statemenagnet library. 
 by using redux we can build predictable state containers for javascript apps. 
 
-## ngrx has 3 following main principles
+## Ngrx has 3 following main principles
     1. Single Source of truth is called State
     2. State is read only and only way to change the state is by dispatching Actions.
     3. Changes to the store is done by using pure functions called Reducers. 
