@@ -14,7 +14,7 @@ it can be data which is stored in backend database or any user provided input in
 4. User selecte input such as currently selected product or entered filter string or any information user 
 has selected. 
 
-## what is NGRX 
+## What is NGRX 
 NGRX is a popular statemangement pattern called Redux tailered to Angular using standard angular concepts and techniques.
 
 ## Purposse of NGRX:
