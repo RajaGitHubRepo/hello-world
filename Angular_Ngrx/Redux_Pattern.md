@@ -2,9 +2,9 @@ Redux is not just for Angular, almost all front end frameworks use this statemen
 by using redux we can build predictable state containers for javascript apps. 
 
 ## ngrx has 3 following main principles
- 1. Single Source of truth is called State
- 2. State is read only and only way to change the state is by dispatching Actions.
- 3. Changes to the store is done by using pure functions called Reducers. 
+    1. Single Source of truth is called State
+    2. State is read only and only way to change the state is by dispatching Actions.
+    3. Changes to the store is done by using pure functions called Reducers. 
 ## Store:
     It is literally a javascript object, which can store all of your application state. 
     Angular forms need to include in store, because usually they are self contained.
@@ -18,14 +18,14 @@ by using redux we can build predictable state containers for javascript apps.
        }
       If you need to change the state, you need to replace the whole state object (as state is immutable)
 ## Reducers:
-Reducers are functions, that specify how state changes in response to an action.
-Reducer is a pure function which accepts two orguments (state, action) and returns a new state. 
-state = is a previous state 
-action = dispatched update state. 
+    Reducers are functions, that specify how state changes in response to an action.
+    Reducer is a pure function which accepts two orguments (state, action) and returns a new state. 
+    State = is a previous state 
+    Action = dispatched update state. 
 
 
 ## NGRX effect:
-To manage side effects we use NGRX effects library. 
+    To manage side effects we use NGRX effects library. 
 
 Components don't put the information in to the store, rather they dispatch an action for the reducer to update the store. 
 Components don't read the information from the store, then they use selector to recieve state change notfications.
