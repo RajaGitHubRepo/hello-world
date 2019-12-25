@@ -1,4 +1,4 @@
-Higher order functions :-
------------------------
+## Higher order functions :-
+---------------------------
 Functions which takes fnction as input paramter and retruns a function stead of (int, bool, string)
 those types of functions are called Highter Order functions.
