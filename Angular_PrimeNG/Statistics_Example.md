@@ -1,4 +1,5 @@
 ## Parent component : 
+## How to make labels and icons as a configurable attribute so that you can reuse the component.
 Below using the prime ng grid, but you can use flex grid to support the same.  
 
 <div class="ui-g">
