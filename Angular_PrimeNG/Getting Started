@@ -1,1 +1,20 @@
-test
+you need to install two 
+-- PrimeNg and font-awesome
+
+AngularCLI.json ==> this file tells the cli to which external style sheet to bundle 
+finally for the application. 
+add primeng and font-awesome stylesheets here..
+The order is important ..so first add primeng and font-awesome stylesheets before the styles.css 
+
+Themes: defines how they look 
+you can change the theme with the avialable list of themes ...
+once you find the theme , you need to add that theme to the styles array in angular.json 
+you can find the themes under node_modules/resources/themes/bootstrap/ theme.css....
+
+Three step processs: 
+
+Working with Icon fonts : 
+-----------------------
+
+
+
