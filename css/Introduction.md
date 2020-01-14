@@ -19,6 +19,7 @@ color -> hexadecimal rgb value
    3. attribute selector
    4. psuedo selector 
    
-
+## specifying css property values
+   you can use key words (thin, thick, larger) 
 
 ## How style rules are inherited and cascaded 
