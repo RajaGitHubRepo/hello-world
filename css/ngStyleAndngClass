@@ -1,0 +1,44 @@
+https://codecraft.tv/courses/angular/built-in-directives/ngstyle-and-ngclass/
+
+@Component({
+  selector: 'ngstyle-example',
+  template: `<h4>NgStyle</h4>
+<ul *ngFor="let person of people">
+  <li [ngStyle]="{'color':getColor(person.country)}"> {{ person.name }} ({{ person.country }}) (1)
+  </li>
+</ul>
+ `
+})
+class NgStyleExampleComponent {
+
+  getColor(country) { (2)
+    switch (country) {
+      case 'UK':
+        return 'green';
+      case 'USA':
+        return 'blue';
+      case 'HK':
+        return 'red';
+    }
+  }
+
+  people: any[] = [
+    {
+      "name": "Douglas  Pace",
+      "country": 'UK'
+    },
+    {
+      "name": "Mcleod  Mueller",
+      "country": 'USA'
+    },
+    {
+      "name": "Day  Meyers",
+      "country": 'HK'
+    },
+    {
+      "name": "Aguirre  Ellis",
+      "country": 'UK'
+    },
+    {
+      "name": "Cook  Tyson",
+      "country": 'USA'
