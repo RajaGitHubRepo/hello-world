@@ -44,3 +44,6 @@ component to template.
 
 ## getter and setter
 ## Forms directives - ValueChanges observable. 
+
+## Good Resource on Change Detection Strategy:
+https://dzone.com/articles/how-to-use-change-detection-in-angular
