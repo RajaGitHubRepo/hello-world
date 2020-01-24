@@ -23,7 +23,30 @@ Angular is already using ng-templates in ngif, ngfor and ngSwitch.
   We are refering to the loading template via its template reference #loading, and we are
   using the ngTemplateOutlet structural directive to instantiate the template.
 
-##TemplateContext: 
+##TemplateContext: property variable to pass to the instance template.
+I am relating this like this... ng-template is like a class wiht name and have some properties. 
+when Instaciating the class, you can assign values those properites. 
+
+in ng-template definision, we define some properties using let- propertyname
+and inside the template we can use that property.
+When instaciating using ngTemplateOutlet, we can provide those property values using context object.
+
+@Component({
+  selector: 'app-root',
+  template: `      
+<ng-template #estimateTemplate let-lessonsCounter="estimate">
+    <div> Approximately {{lessonsCounter}} lessons ...</div>
+</ng-template>
+<ng-container 
+   *ngTemplateOutlet="estimateTemplate;context:ctx">
+</ng-container>
+`})
+export class AppComponent {
+
+    totalEstimate = 10;
+    ctx = {estimate: this.totalEstimate};
+  
+}
 
 ## ng-container: You can not use multiple structural directives like (ngIf and ngFor) on a single element.
 In order to apply multiple structural directives on a single element you can use ng-container
@@ -32,4 +55,6 @@ of the page, without having to create an extra element just for that.
 
 There is another major use case for the ng-container directive: it can also provide a placeholder 
 for injecting a template dynamically into the page
+
+## Template References
 
