@@ -42,10 +42,21 @@ Since all the components, get the information from single source of touth (store
 Ngrx has tools to view our list of actions and state, making it much easier to see what's going on in the application.
 
 
-(*)Action : 
----------
-(*)Reducer :  
-----------
+## Action :  How action looks like and dispatch a action
+--------------------------------------------------------
+        
+        
+          In the contorller create a method suppose you want to store the check button checked state (toggle Product code) 
+          checkChanged( value:boolean)
+          {
+             this.store.Dispatch({
+             Type: Toggle_ProdcutCode
+             payLoad : value
+             });
+          }
+
+##  Reducer :   How reducer code looks like
+-------------------------------------------
 Takes the stae from the store if already exists and creates a new state (as it is immutable)
 The reducer body just like a big switch statement with each action type
 
@@ -55,7 +66,7 @@ The reducer body just like a big switch statement with each action type
             {
                 case "Toggle_ProdcutCode":
                     return { 
-                        ...state,
+                        ...state, // Spread Operator for arrays or object literal
                         showProdcutCode : action.payload
                 case : default:
                      return {state;}
