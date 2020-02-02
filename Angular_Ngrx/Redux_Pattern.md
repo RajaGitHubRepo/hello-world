@@ -48,15 +48,17 @@ Ngrx has tools to view our list of actions and state, making it much easier to s
 ----------
 Takes the stae from the store if already exists and creates a new state (as it is immutable)
 The reducer body just like a big switch statement with each action type
-export function reducer(state, action)
-{ 
 
-   switch (action.type) 
-   {
-     case "Toggle_ProdcutCode"
-     return { 
-      ...state,
-      showProdcutCode : action.payload
+        export function reducer(state, action)
+        { 
+            switch (action.type) 
+            {
+                case "Toggle_ProdcutCode":
+                    return { 
+                        ...state,
+                        showProdcutCode : action.payload
+                case : default:
+                     return {state;}
      }
    }
 
