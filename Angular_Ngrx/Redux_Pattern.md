@@ -95,7 +95,8 @@ export class AppModule
 // we create number of reduceres for each slice in the store. (like product reducer, customer reducer, user reducer etc...)
 // Again each slice is subdevided in to multiple slices just like prodcut features has (productList, CurrentProduct, dispaly code yer or no etc...)
 
-** Selector :  How to get the slice of a store.
+## Selector :  How to get the slice of a store.
 ------------- 
-   this.Store.Select("Products") --> it is the name of the store. 
-   this.Store.Pipe( select("Products")) --> we can also use Pipe operator since store is a Observable. 
+
+        this.Store.Select("Products") --> it is the name of the store. 
+        this.Store.Pipe( select("Products")) --> we can also use Pipe operator since store is a Observable. 
