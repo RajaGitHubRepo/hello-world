@@ -91,12 +91,23 @@ export class AppModule
 {
 }
 
-// As we discussed store is organised in to features (just like feature modules) are also called slices. 
+// As we discussed store is organised in to features (Just like feature modules) are also called slices. 
 // we create number of reduceres for each slice in the store. (like product reducer, customer reducer, user reducer etc...)
 // Again each slice is subdevided in to multiple slices just like prodcut features has (productList, CurrentProduct, dispaly code yer or no etc...)
 
 ## Selector :  How to get the slice of a store.
 ------------- 
 
-        this.Store.Select("Products") --> it is the name of the store. 
-        this.Store.Pipe( select("Products")) --> we can also use Pipe operator since store is a Observable. 
+        this.Store.Select("Products") --> It is the name of the store. 
+        this.Store.Pipe( select("Products")) --> We can also use Pipe operator since store is a Observable. 
+        on NgOnInit() if you want to assign the value of checkbox Productiocode
+        access the value from Store
+        
+        ngOnInit : void {
+          this.Store.Pipe (select("Prodcuts")).Subscribe (Products => 
+            if(products)
+            {
+                this.dispalyProductCode = products.ShowProductCode;
+            }
+          );
+        }
