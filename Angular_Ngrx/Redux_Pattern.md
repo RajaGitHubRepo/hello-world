@@ -1,5 +1,5 @@
-Redux is not just for Angular, almost all front end frameworks use this statemenagnet library. 
-by using redux we can build predictable state containers for javascript apps. 
+Redux pattern (library) is not just for Angular, almost all front end frameworks use this statemenagnet library. 
+by using redux pattern we can build predictable state containers for javascript apps. 
 
 ## Ngrx has 3 following main principles
     1. Single Source of truth is called State
@@ -44,9 +44,24 @@ Ngrx has tools to view our list of actions and state, making it much easier to s
 
 (*)Action : 
 ---------
-(*)Reducer : 
+(*)Reducer :  
 ----------
 Takes the stae from the store if already exists and creates a new state (as it is immutable)
+The reducer body just like a big switch statement with each action type
+export function reducer(state, action)
+{ 
+
+   switch (action.type) 
+   {
+     case "Toggle_ProdcutCode"
+     return { 
+      ...state,
+      showProdcutCode : action.payload
+     }
+   }
+
+}
+
 (*)Store (local store) State : 
 ----------------------------
 is a tree like object (which organises in to moudles and properties)
