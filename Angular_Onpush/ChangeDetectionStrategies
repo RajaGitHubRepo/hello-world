@@ -1,1 +1,29 @@
 ##OnPushChangeDetection
+
+Onpush Change detection is faster than nomral Change detection.
+but also it is trickier to use and understand.
+
+Angular default change detection compares the previous value to the current value.
+if it detects, angular will update the view. 
+
+When Using OnPush Change detection strategy:
+When some trigger happend in the parent copmnet and directly mutating the model 
+(View Syncronisation) will not happen.
+
+you have change the opbject 
+// Big difference is we are not mutating the object directly, but we are creating a new copy and assigning the 
+copy.
+
+on the parent component 
+
+onEdit()
+{
+  this.courses[0].description = "new value"; // Click of a Button directly changing the Object. 
+  // create a copy 
+  const course = this.courses[0];            // Step 1: create a referece to the object we want to modify
+  const newCourse: any = {...course};        // step 2: object spread typescript notation.
+  newCourse.description = "new value";       // step 3: mutate the copy we just created. 
+  this.course[0] = newCourse;                // step 4: Assign the new copy we created
+}
+
+
