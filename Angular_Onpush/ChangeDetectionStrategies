@@ -14,7 +14,8 @@ you have change the opbject
 // Big difference is we are not mutating the object directly, but we are creating a new copy and assigning the 
 copy.
 
-on the parent component 
+On the Parent Component @Input() property is Changed...when we changed we are giving completly new object 
+from the parent to the child via @input() property, so the view will update accordingly.
 
 onEdit()
 {
@@ -25,5 +26,8 @@ onEdit()
   newCourse.description = "new value";       // step 3: mutate the copy we just created. 
   this.course[0] = newCourse;                // step 4: Assign the new copy we created
 }
+
+Summary on how OnPush change detection works: 
+--------------------------------------------
 
 
