@@ -1,0 +1,11 @@
+Web is not the fixed width:
+
+Responsive Web Design: 3 core concepts/ foundations (all are happeing in css)
+1. A Fluid Foundation  ( Idea of moving away from pixels/fixing widths in our layouts to more propotiante thinking ) 
+   - use percentage based grids (always calculate percentages)
+
+2. Flexible content ( once the lay out is flexible, the content we put in these layout also has to adjust ) 
+   - max-width
+   - width 
+
+3. Media Queries ( when the layout and content don't work well, then we use media queries ) 
