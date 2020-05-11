@@ -1,0 +1,19 @@
+The javascript primitive types (Numbers, Strins, Booleans) are Immutable: 
+meaning they can't change, once the value is assigned.
+
+but arrays, objects are  mutables: 
+
+Angular has two types of change detection strategies:
+-----------------------------------------------------
+1. OnPush : Means theat the changeDetectors mode to check once.
+2. Default : Change detection mode to check always
+
+What happenns when we use default change detection strategy:
+Changes are triggered by events and propagation of changes are done in two phases:
+1. Application phase (In this Phase, the application is responsible for updating the model)
+2. Change detection phase.
+
+ngOnInit()
+ngOnChanges() : Every time, When there is a chnage in input property the component. 
+ngDoCheck() : It is invoked when the chagne detector of given comoponent is invoked , it allows us implement our own change detection
+algorthim for our component, here we can track if there is a change.
