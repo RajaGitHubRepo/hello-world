@@ -28,6 +28,10 @@
   forFeature(products, {Prodcutlist:listReducer , productEdit:editreducer})
 
 ## Define the state and actions
+   In our example we are creating for check box (have two states, if user checked in or un-checked it)
+   and define to types : One to show the code (if check box is checked) 
+                       : One to hid the code (if check box is un-checked)
+                       : Another one type for toggle and payload looks like ( True | False) 
 
 ## Build a reducer to process actions and set store state
 
