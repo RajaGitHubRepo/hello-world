@@ -16,6 +16,10 @@
   (or) We can create one reducer for each slice of state. 
   for main reducer we user .forRoot()
   
+  For our example: Intialise the Store (we do this to register the store container with our application) In root app module (.forRoot() 
+  and feature module (.forFeature())
+   
+  
 ## Feature module state composition
   StoreModule.ForFeature("products", reference to that reducer); 
   These are similar to routes for routes we use forchild() and for reducers we user .forFreacture().
