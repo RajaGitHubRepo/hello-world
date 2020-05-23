@@ -34,6 +34,15 @@
                        : Another one type for toggle and payload looks like ( True | False) 
 
 ## Build a reducer to process actions and set store state
+  how the recuder looks like ? 
+  Export function reducer (state, action) 
+  And the body of recueer is just like a big switch statement. Processing the type of actions.
+  in the swich for each actions, the reducer creates new representations of the state. 
+  reducer should be pure function: given the same input alwasy returns the same output. 
+  
+  Where to put the reducer ? create a seperate folder inside the feature module folder and add a reducer function.
+  this recuder function needs to include in main reducer .forRoot({reducer}) and .forFeature('slice of the state',reducer)
+  
 
 ## Dispatch an action to change store state
 
