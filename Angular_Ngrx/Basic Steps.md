@@ -49,5 +49,8 @@
 ## Subscribe to state change notifications
   To access the value of the store, we select the appropriate slice in the store.
   The store has "select" method, we can use this to get the slice of store 
+  // this.store.select('products');
   (or) since store is a observalbe we can use the pipe method and ngrx "select" operator.
+  // this.store.pipe(select('products');
+  
   using pipe approach is good as we can use the other pipable operators. 
