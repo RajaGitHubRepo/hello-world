@@ -21,7 +21,11 @@
   Above extends used for lazy loaded feature slices. 
 
 ## Use the Interfaces for strong typing
-
+  Once we have the interfaces for the slices, next step is add the strong types in the reducer function 
+  for both function parameters and retrun types. 
 ## Set Initial state value
 
 ## Build selectors
+
+## Using and composing selectors 
+
