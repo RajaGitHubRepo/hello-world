@@ -14,8 +14,11 @@
   products : productState;
   }
   
-  
-  
+  if your feature is not lazy loaded you can directly define it in the global application state. 
+  export interface state {
+   Users: UserState; // Pre loaded features slices.
+  }
+  Above extends used for lazy loaded feature slices. 
 
 ## Use the Interfaces for strong typing
 
