@@ -24,8 +24,17 @@
   Once we have the interfaces for the slices, next step is add the strong types in the reducer function 
   for both function parameters and retrun types. 
 ## Set Initial state value
+  create an object for the intail state and assign the values
+  - We can use the Javascript feature default functional paramerter syntax.
 
 ## Build selectors
+  Selector is like a reusable query of our store.
+  Just like a store proc to accessing our in memory state information.
+  Selector are layer between the store and the components.
+  It handles / encapsulate the complex data transfermations.
+  And these are reusable, so other components can access the same way
+  Selectors returned value is cached. (This is only evaluated when state changes)- This will 
+  Improve the performance. 
 
 ## Using and composing selectors 
 
