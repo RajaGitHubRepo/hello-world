@@ -26,6 +26,9 @@
                                             // Here [Product] specifies the name of the slice. 
        }
        
+       -- Did not understand the union typing....
+       
+       
        Creat - Action creator
        exprot class ToggleProuctCode (Name of the action creator) Implements Action {
             readonly Type = actionTypes.toggleproductCode;
