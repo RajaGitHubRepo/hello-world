@@ -35,7 +35,12 @@
             }
        }
        
-       -- Did not Understand the union typing ( Need to come back later and understand the 
+       
+ ## why union type for action creators ? 
+      -- Did not Understand the union typing ( Need to come back later and understand the 
        what is union types and why we need to union type the action creators ) 
+       The second paramter in reducer will be action and earlier we have not specified the type.
+       by defining the union type of all the action creators we can we the union type here.
+       so the action cretors should be of one of the union type above. 
 
 ## 
