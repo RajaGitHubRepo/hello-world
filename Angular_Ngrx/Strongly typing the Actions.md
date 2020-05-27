@@ -25,10 +25,7 @@
        toggleproductCode= '[product]Toogle' => Some good namingconvention to idetify 
                                             // Here [Product] specifies the name of the slice. 
        }
-       
-       -- Did not understand the union typing....
-       
-       
+      
        Creat - Action creator
        exprot class ToggleProuctCode (Name of the action creator) Implements Action {
             readonly Type = actionTypes.toggleproductCode;
@@ -37,5 +34,8 @@
              
             }
        }
+       
+       -- Did not Understand the union typing ( Need to come back later and understand the 
+       what is union types and why we need to union type the action creators ) 
 
 ## 
