@@ -9,7 +9,10 @@
     If we do spelling mistake, there is nothing that we can able to find out... 
 
 ## Action Creators 
-   
-   
+     By building action creaters we can gain following things
+     - For strongly typing our actions.
+     - for create and dispatch actions.
+     - Use actions and selectors to communicate between components. 
+     - Define actions for more complex operations.   
 
 ## 
